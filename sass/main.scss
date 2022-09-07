@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* FONTS */
+//font-family: 'Ibarra Real Nova', serif;
+//font-family: 'Clash Grotesk', sans-serif;
+/* VARIABLES */
+@import 'vars';
+
+/* EXTEND */
+.title{
+    font-family: 'Cormorant SC', serif;
+    color: #dfe6e9;
+}
+.dark-bg{
+    background-color: #191919;
+}
+.subtitle{
+    font-family: 'Clash Grotesk', sans-serif;
+    color: #fff
+}
+/* APLICA A TODAS LAS PÁGINAS */
+
+@import 'menu';
