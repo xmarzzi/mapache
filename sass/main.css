@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,11 +42,12 @@
 header {
   width: 100%;
   background: #191919;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  justify-content: center;
 }
 header .logo img {
-  width: 12vw;
+  display: flex;
+  margin: 20px auto;
 }
 header nav {
   z-index: 1000;
@@ -71,6 +73,8 @@ header nav ul li a {
   display: block;
   text-decoration: none;
   padding: 20px;
+  margin: 0 25px;
+  font-size: 18px;
 }
 
 nav ul li:hover .submenu {
@@ -92,11 +96,12 @@ nav ul li .submenu li {
 
 @media (max-width: 768px) {
   header {
+    display: flex;
     flex-direction: column;
   }
   header .logo img {
     display: flex;
-    width: 30vw;
+    width: 25vw;
     margin: auto;
   }
   header .bar-btn {
@@ -171,4 +176,6 @@ footer h2 {
     margin: auto;
     justify-content: space-around;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/* INDEX */
+/* NOSOTROS *//*# sourceMappingURL=main.css.map */

@@ -13,11 +13,12 @@
 header{
     width: 100%;
     background: #191919;
-    display: flex;
-    justify-content:space-around;
+    display: grid;
+   justify-content: center;
     
     .logo img{
-        width: 12vw;
+        display: flex;
+        margin: 20px auto;
     }
     & nav{
         z-index: 1000;
@@ -46,6 +47,8 @@ header{
         display: block;
         text-decoration: none;
         padding: 20px;
+        margin: 0 25px;
+        font-size: 18px;
     }
   
 }
@@ -70,10 +73,11 @@ nav ul li:hover .submenu{
 
 @media (max-width:$tablet) {
     header{
+        display: flex;
         flex-direction: column;
         .logo img{
             display: flex;
-            width: 30vw;
+            width: 25vw;
             margin: auto;
         }
         & .bar-btn{

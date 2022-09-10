@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
 //font-family: 'Ibarra Real Nova', serif;
 //font-family: 'Clash Grotesk', sans-serif;
 /* VARIABLES */
@@ -22,6 +24,16 @@
     font-family: 'Clash Grotesk', sans-serif;
     color: #fff
 }
+
+.principal{
+
+}
 /* APLICA A TODAS LAS PÁGINAS */
 
 @import 'menu';
+
+/* INDEX */
+@import 'index';
+
+/* NOSOTROS */
+@import ''
