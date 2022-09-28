@@ -116,7 +116,7 @@ let htmlCarrito = ""
               <h5 class="card-title">${prod.title}</h5>
               <p>${prod.price}</p>
               <p>Cantidad: ${prod.cantidad}</p>
-              <button class="btn btn-danger" onclink="eliminarProductoDelCarrito(${id})">Eliminar</button>
+              <button class="btn btn-danger" onclick="eliminarProductoDelCarrito(${id})">Eliminar</button>
           </div>
       </div>
       `
@@ -149,9 +149,8 @@ function eliminarProductoDelCarrito(id) {
         carrito.splice(id, 1);
 
     }
-
+    guardarCarrito();
     calcularTotal();
-    
     renderizarCarrito();
 
 }
