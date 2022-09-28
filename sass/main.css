@@ -12,7 +12,7 @@
 /* EXTEND */
 .title {
   font-family: "Cormorant SC", serif;
-  color: #dfe6e9;
+  color: #353b48;
 }
 
 .dark-bg {
@@ -21,7 +21,7 @@
 
 .subtitle {
   font-family: "Clash Grotesk", sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 /* APLICA A TODAS LAS PÁGINAS */
@@ -41,7 +41,7 @@
 
 header {
   width: 100%;
-  background: #191919;
+  background: #fff;
   display: grid;
   justify-content: center;
 }
@@ -63,13 +63,13 @@ header nav ul li {
   position: relative;
 }
 header nav ul li:hover {
-  background: #e3f0c9;
+  background: #e1b12c;
 }
 header a:hover {
   color: #000;
 }
 header nav ul li a {
-  color: #fff;
+  color: #000;
   display: block;
   text-decoration: none;
   padding: 20px;
@@ -83,7 +83,7 @@ nav ul li:hover .submenu {
 
 nav ul li .submenu {
   display: none;
-  background: #2C3333;
+  background: #f1f2f6;
   position: absolute;
   width: 150%;
   z-index: 1000;
@@ -107,7 +107,7 @@ nav ul li .submenu li {
   header .bar-btn {
     display: block;
     font-size: 25px;
-    color: #fff;
+    color: #000;
     margin-left: 20px;
     cursor: pointer;
     padding-bottom: 8px;
@@ -116,8 +116,8 @@ nav ul li .submenu li {
     height: 0vh;
     position: -webkit-sticky;
     position: sticky;
-    width: 100%;
-    background-color: #2d3436;
+    width: 80%;
+    background-color: #ffda79;
     display: flex;
     flex-direction: column;
     z-index: 10;
@@ -125,11 +125,12 @@ nav ul li .submenu li {
     transition: all 0.5s;
     padding: 0;
     margin: 0;
+    border-radius: 0 3% 3% 0;
   }
   header .nav-menu .submenu {
     width: 100%;
     position: relative;
-    background-color: #5C715E;
+    background-color: #f1f2f6;
   }
   header nav ul li:hover .submenu {
     display: inline-block;
@@ -155,15 +156,21 @@ nav ul li .submenu li {
   }
 }
 footer {
-  background-color: #191919;
+  background-color: #EAB543;
+}
+footer .logo {
+  border-radius: 55px 25px 85px 5px;
 }
 footer h2 {
-  color: #ffffff;
+  color: #000;
 }
 
 @media (max-width: 768px) {
   footer {
     padding: 15px;
+  }
+  footer div a .logo {
+    border-radius: 55px 25px 85px 5px;
   }
   footer .navbar-brand {
     margin: auto;
@@ -178,4 +185,19 @@ footer h2 {
   }
 }
 /* INDEX */
-/* NOSOTROS *//*# sourceMappingURL=main.css.map */
+.portada {
+  display: flex;
+}
+.portada .kongo {
+  width: 80%;
+  justify-content: flex-start;
+}
+
+/* NOSOTROS */
+.portada {
+  display: flex;
+}
+.portada .kongo {
+  width: 80%;
+  justify-content: flex-start;
+}/*# sourceMappingURL=main.css.map */

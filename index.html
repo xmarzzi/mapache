@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffe y un poco más</title>
+    <title>Mapache | Pet Shop</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./sass/main.css">
     <!-- Bootstrap css -->
@@ -13,12 +13,12 @@
     <!-- MENU HAMBURGUESA  -->
     <script src="https://kit.fontawesome.com/3535285719.js" crossorigin="anonymous"></script>
     <!-- SROTCUT ICON -->
-    <link rel="shortcut icon" href="./img/coffeeGranos.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/petShop.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="logo">
-          <a href="">  <img src="./img/coffeeGranos.png" alt="logo coffee" width="150px" ></a>
+          <a href="">  <img src="./img/petShop.png" alt="logo Pet Shop" width="250px" ></a>
         </div>
         
         <nav class="menu">
@@ -29,35 +29,54 @@
           <ul class="nav-menu">
             
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-            <li><a href="./pages/catalogo.html">Catálogo  <i class="fa-solid fa-angle-down"></i></a>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Ropa y accesorios<i class="fa-solid fa-angle-down"></i></a>
               <ul class="submenu">
-                <li><a href="./pages/catalogo.html#Cafe">Café</a></li>
-                <li><a href="./pages/catalogo.html#Habanos">Habanos</a></li>
-                <li><a href="./pages/catalogo.html#Tazas">Tazas</a></li>
+                <li><a href="##Perros">Perros</a></li>
+                <li><a href="##Gatos">Gatos</a></li>
+              </ul>
+            </li>
+            <li><a href="./pages/Alimentos.html">Alimentos<i class="fa-solid fa-angle-down"></i></a>
+              <ul class="submenu">
+                <li><a href="./pages/catalogo.html#comidaPerros">Comida para perros</a></li>
+                <li><a href="./pages/catalogo.html#ComidaGatos">Comida para gatos</a></li>
               </ul>
             </li>
             <li><a href="#">Cómo comprar  <i class="fa-solid fa-angle-down"></i></a>
               <ul class="submenu">
-                <li><a href="./pages/comoComprar.html#3cuotas">Cuotas sin interés</a></li>
-                <li><a href="./pages/comoComprar.html#envio-gratis">Envío gratis</a></li>
-                <li><a href="./pages/contacto.html">Venta Mayorista</a></li>
+                <li><a href="#3cuotas">Cuotas sin interés</a></li>
+                <li><a href="#envio-gratis">Envío gratis</a></li>
+                <li><a href="#">Venta Mayorista</a></li>
               </ul>
             </li>
-            <li><a href="./pages/contacto.html">Recetas</a></li>
           </ul>
         </nav>
        </header>
-<main>
 <div class="portada">
-  
-</div>
-</main>
+  <img src="../img/kongo.jpg" class="Kongo" alt="">
+  <aside class="carrito">
+    <h2>Carrito</h2>
+    <ul id="carrito" class="list-group"></ul>
+    <hr />
+    <p class="text-right">Total: <span id="total"></span></p>
+    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+</aside>
+  </div>
+  <h1 class="title">Ofertas</h1>
+  <div class="container">
+      <div class="row">
+          <main id="items" class="col-sm-8 row">
+          </main>
+         
+      </div>
+  </div>
+
+
       <footer>
         <nav class="navbar">
             <div class="container  p-2 ">
               <a class="navbar-brand" href="./index.html">
-                <img src="./img/coffeeGranos.png" alt="logoCoffee" width="150px">
+                <img class="logo" src="./img//petShop.png" alt="logoPetShop" width="250px">
               </a>
               <div class="newsletter">
                 <h2 class="fs-5 d-flex justify-content-center"> Suscribite a nuestro newsletter</h1>
@@ -83,7 +102,8 @@
             </div>
           </nav>
     </footer> 
-  
+<!--SWEETALERT -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- JS -->
 <script src="./index.js"></script>
 <!-- Bootstrap JS -->
