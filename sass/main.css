@@ -39,15 +39,34 @@
   display: none;
 }
 
+.bagBtn {
+  display: none;
+}
+
+#bag {
+  display: none;
+}
+
 header {
   width: 100%;
   background: #fff;
   display: grid;
+  grid-template-areas: "logo logo" "menu dos";
+}
+header .logo {
+  grid-area: logo;
+  display: flex;
   justify-content: center;
 }
 header .logo img {
-  display: flex;
   margin: 20px auto;
+}
+header .menus {
+  display: flex;
+  justify-content: space-around;
+}
+header .menu {
+  grid-area: menu;
 }
 header nav {
   z-index: 1000;
@@ -75,6 +94,17 @@ header nav ul li a {
   padding: 20px;
   margin: 0 25px;
   font-size: 18px;
+}
+header .menu-dos {
+  grid-area: dos;
+}
+header .menu-dos .bag-btn {
+  margin-left: 300px;
+  font-size: 25px;
+  background: #e1b12c;
+  color: #000;
+  padding: 5px 15px 5px 15px;
+  border-radius: 25%;
 }
 
 nav ul li:hover .submenu {
