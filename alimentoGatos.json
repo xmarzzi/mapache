@@ -1,0 +1,19 @@
+[
+    {"id":"1", "title":"Alimento Purina One Gato Salmon 2k" ,"price": "2500","img":"https://jumboargentina.vtexassets.com/arquivos/ids/615782-1200-auto?v=637426488079800000&width=1200&height=auto&aspect=true"},
+    {"id":"2", "title": "Alimento Whiskas Para Gatos Pescado 3kg","price":"2300" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/586469-1200-auto?v=637265784411500000&width=1200&height=auto&aspect=true"},
+    {"id":"3", "title": "Alimento Purina One Esterilizado Salmon 2k","price": "2950","img":"https://jumboargentina.vtexassets.com/arquivos/ids/615784-1200-auto?v=637426488099370000&width=1200&height=auto&aspect=true"},
+    {"id":"4", "title":"Alimento Purina One Gatito 2k" ,"price": "2870","img":"https://jumboargentina.vtexassets.com/arquivos/ids/615788-1200-auto?v=637426488115170000&width=1200&height=auto&aspect=true"},
+    {"id":"5", "title":"Alimento Sabrositos Para Gatos Pescado X3kg" ,"price":"1200" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/617227-1200-auto?v=637437282513730000&width=1200&height=auto&aspect=true"},
+    {"id":"6", "title":"Alimento Cat Chow Gatitos Pescado Carne Vegetales 1k" ,"price":"950" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/681924-1200-auto?v=637757194072730000&width=1200&height=auto&aspect=true"},
+    {"id":"7", "title": "Alimento Gati Salmon Y Pollo 500g","price":"250" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/681912-1200-auto?v=637757194028170000&width=1200&height=auto&aspect=true"},
+    {"id":"8", "title":"Humedo Pets Class Para Gato Adulto Carne X 85g" ,"price": "120","img":"https://jumboargentina.vtexassets.com/arquivos/ids/554619-1200-auto?v=637087364349700000&width=1200&height=auto&aspect=true"},
+    {"id":"9", "title":"Alimento Whiskas Bueno Por Nat Salmon 1k" ,"price":"700" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/677442-1200-auto?v=637733001832370000&width=1200&height=auto&aspect=true"},
+    {"id":"10", "title":"Alimento Para Gatos Whiskas Pasta Pollo 340 Gr" ,"price":"300" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/586394-1200-auto?v=637265784139500000&width=1200&height=auto&aspect=true"},
+    {"id":"11", "title":"Humedo King Food Para Gato Frutos De Mar 85gr" ,"price": "100","img":"https://jumboargentina.vtexassets.com/arquivos/ids/554617-1200-auto?v=637087364342000000&width=1200&height=auto&aspect=true"},
+    {"id":"12", "title": "Alimento Cat Chow Adulto Pescado Pollo 500g","price":"300" ,"img":"https://jumboargentina.vtexassets.com/arquivos/ids/681923-1200-auto?v=637757194070230000&width=1200&height=auto&aspect=true"},
+    {"id":"13", "title": "Alimento Para Gatos Whiskas Pasta Gatitos 85 Gr", "price": "150", "img": "https://jumboargentina.vtexassets.com/arquivos/ids/586409-1200-auto?v=637265784189870000&width=1200&height=auto&aspect=true"}, 
+    {"id":"14", "title": "Pets Class Humedo Para Gato Atun Sardina X340g", "price": "320", "img": "https://jumboargentina.vtexassets.com/arquivos/ids/711989-1200-auto?v=637943817784970000&width=1200&height=auto&aspect=true"}, 
+    {"id":"15", "title": "Alimento Para Gatos Whiskas Pasta Pollo 85 Gr", "price": "150", "img": "https://jumboargentina.vtexassets.com/arquivos/ids/586430-1200-auto?v=637265784247930000&width=1200&height=auto&aspect=true"}, 
+    {"id":"16", "title": "Alimento Para Gatos Whiskas Pasta Salmón 85 Gr", "price": "158", "img": "https://jumboargentina.vtexassets.com/arquivos/ids/586411-1200-auto?v=637265784197070000&width=1200&height=auto&aspect=true"}, 
+    {"id":"17", "title": "Alimento King Food Para Gato X 500gr", "price": "200", "img": "https://jumboargentina.vtexassets.com/arquivos/ids/554614-1200-auto?v=637087364327500000&width=1200&height=auto&aspect=true"} 
+]

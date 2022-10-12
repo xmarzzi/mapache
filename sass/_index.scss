@@ -1,10 +1,41 @@
-
-
 .portada{
   display: flex;
   .kongo{
     width: 80%;
     justify-content: flex-start;
+  }   
+}
+
+.carrousel-items{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.carrousel-item{
+  min-width: 250px;
+  max-width: 300px;
+  height: 200px;
+  margin: 10px;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
-   
+}
+
+.ofertas{
+  display: flex;
+  justify-content: space-around;
+  gap: 3%;
+  margin: 15px;
+}
+
+
+@media (max-width:$tablet){
+  .ofertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+  }
 }

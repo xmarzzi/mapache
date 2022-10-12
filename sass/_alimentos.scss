@@ -1,0 +1,31 @@
+
+main{
+  margin:  25px 0 25px 0;
+  .btn{
+    display: flex;
+    color: #fff;
+    font-size: 130%;
+    background-color: green;
+    padding: 5% 15%;
+    margin: auto;
+  }
+}
+
+.comidaGatos{
+    display:flex;
+    max-width: 1900px;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 25px auto;
+    flex-wrap: wrap;
+  }
+
+  .comidaPerros{
+    display:flex;
+    max-width: 1900px;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 25px auto;
+    flex-wrap: wrap;
+  }
+  
